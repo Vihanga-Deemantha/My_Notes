@@ -1,9 +1,10 @@
 import axios from "axios";
 
-const API = axios.create({
-    baseURL: "http://localhost:5005/api/notes",
-});
+const BASE_URL = import.meta.env.MODE === "development" ? "http://localhost:5005/api" : "/api";
 
+const API = axios.create({
+    baseURL: BASE_URL,
+});
 //attach token automatically
 API.interceptors.request.use((req) => {
     const token = localStorage.getItem("token");
