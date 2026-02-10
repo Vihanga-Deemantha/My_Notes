@@ -80,9 +80,9 @@ if (process.env.NODE_ENV === "production") {
 // Fallback for non-production (optional)
 //this is used to serve the frontend in production
 //if the environment is production then it will serve the frontend
-app.get("/", (req, res) => {
+/*app.get("/", (req, res) => {
     res.send("API is running...");
-});
+});*/
 
 // Listen to the port
 //this is used to listen to the port
