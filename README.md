@@ -25,3 +25,5 @@ Backend: Node.js, Express.js, MongoDB (Mongoose), JWT
 Deployment: Render
 
 Rate Limiting: Custom middleware
+
+This is a website build to practice mern stack concepts and deployment.
