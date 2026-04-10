@@ -1,4 +1,4 @@
-My Notes App
+##My Notes App
 
 A full-stack Notes Web Application built with React, Express.js, and MongoDB, featuring authentication, CRUD notes, rate limiting, and a modern responsive UI with DaisyUI/TailwindCSS.
 
